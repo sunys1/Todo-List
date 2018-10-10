@@ -26,11 +26,22 @@ body {
 
 li {
 	/*white background*/
-	background: #fff ;
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
 }
 
 li:nth-child(2n){
 	background: #f7f7f7;
+}
+
+input {
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
 }
 
 .completed {
