@@ -14,6 +14,24 @@ h1 {
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Roboto;
+}
+
+li {
+	/*white background*/
+	background: #fff ;
+}
+
+li:nth-child(2n){
+	background: #f7f7f7;
+}
 
 .completed {
 	color: grey;
