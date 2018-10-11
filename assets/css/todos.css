@@ -39,6 +39,7 @@ li {
 	height: 40px;
 	line-height: 40px;
 	color: #666;
+
 }
 
 li:nth-child(2n){
@@ -53,8 +54,14 @@ span {
 	color: white;
 	width: 0;
 	display: inline-block;
+	transition: 0.2s linear
+	opacity: 0;
 }
 
+li:hover span {
+	width: 40px;
+	opacity: 1;
+}
 input {
 	color: #2980b9;
 	font-size: 18px;
