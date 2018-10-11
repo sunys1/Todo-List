@@ -20,8 +20,17 @@ ul {
 	padding: 0;
 }
 
-body {
+.fa-plus-square {
+	float: right;
+}
+
+body {	
 	font-family: Roboto;
+	background: #CC95C0;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 
 li {
@@ -34,6 +43,16 @@ li {
 
 li:nth-child(2n){
 	background: #f7f7f7;
+}
+
+span {
+	background: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
 }
 
 input {
